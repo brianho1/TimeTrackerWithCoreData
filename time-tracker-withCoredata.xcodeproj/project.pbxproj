@@ -9,11 +9,23 @@
 /* Begin PBXBuildFile section */
 		EA57A4091A7EEEC700023F9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA57A4081A7EEEC700023F9E /* main.m */; };
 		EA57A40C1A7EEEC700023F9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA57A40B1A7EEEC700023F9E /* AppDelegate.m */; };
-		EA57A40F1A7EEEC700023F9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA57A40E1A7EEEC700023F9E /* ViewController.m */; };
 		EA57A4121A7EEEC700023F9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA57A4101A7EEEC700023F9E /* Main.storyboard */; };
 		EA57A4141A7EEEC700023F9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA57A4131A7EEEC700023F9E /* Images.xcassets */; };
 		EA57A4171A7EEEC700023F9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA57A4151A7EEEC700023F9E /* LaunchScreen.xib */; };
 		EA57A4231A7EEEC700023F9E /* time_tracker_withCoredataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA57A4221A7EEEC700023F9E /* time_tracker_withCoredataTests.m */; };
+		EA57A4481A7EEF6400023F9E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA57A4461A7EEF6400023F9E /* Model.xcdatamodeld */; };
+		EA57A4511A7EF53400023F9E /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = EA57A4501A7EF53400023F9E /* Entry.m */; };
+		EA57A4541A7EF53400023F9E /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = EA57A4531A7EF53400023F9E /* Project.m */; };
+		EA57A4631A7EF81000023F9E /* TTCustomEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA57A4561A7EF81000023F9E /* TTCustomEntryViewController.m */; };
+		EA57A4641A7EF81000023F9E /* TTCustomEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA57A4571A7EF81000023F9E /* TTCustomEntryViewController.xib */; };
+		EA57A4651A7EF81000023F9E /* TTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA57A4591A7EF81000023F9E /* TTDetailViewController.m */; };
+		EA57A4661A7EF81000023F9E /* TTDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA57A45A1A7EF81000023F9E /* TTDetailViewController.xib */; };
+		EA57A4671A7EF81000023F9E /* TTDetailViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA57A45C1A7EF81000023F9E /* TTDetailViewDataSource.m */; };
+		EA57A4681A7EF81000023F9E /* TTListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA57A45E1A7EF81000023F9E /* TTListViewController.m */; };
+		EA57A4691A7EF81000023F9E /* TTProjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA57A4601A7EF81000023F9E /* TTProjectController.m */; };
+		EA57A46A1A7EF81000023F9E /* TTViewControllerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA57A4621A7EF81000023F9E /* TTViewControllerDataSource.m */; };
+		EA57A46C1A7EF9EE00023F9E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA57A46B1A7EF9EE00023F9E /* CoreData.framework */; };
+		EA57A46F1A7EFAB500023F9E /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = EA57A46E1A7EFAB500023F9E /* Stack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +44,36 @@
 		EA57A4081A7EEEC700023F9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA57A40A1A7EEEC700023F9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA57A40B1A7EEEC700023F9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EA57A40D1A7EEEC700023F9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EA57A40E1A7EEEC700023F9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EA57A4111A7EEEC700023F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA57A4131A7EEEC700023F9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EA57A4161A7EEEC700023F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EA57A41C1A7EEEC700023F9E /* time-tracker-withCoredataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "time-tracker-withCoredataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA57A4211A7EEEC700023F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA57A4221A7EEEC700023F9E /* time_tracker_withCoredataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = time_tracker_withCoredataTests.m; sourceTree = "<group>"; };
+		EA57A4471A7EEF6400023F9E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		EA57A44F1A7EF53300023F9E /* Entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Entry.h; path = ../Entry.h; sourceTree = "<group>"; };
+		EA57A4501A7EF53400023F9E /* Entry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Entry.m; path = ../Entry.m; sourceTree = "<group>"; };
+		EA57A4521A7EF53400023F9E /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Project.h; path = ../Project.h; sourceTree = "<group>"; };
+		EA57A4531A7EF53400023F9E /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Project.m; path = ../Project.m; sourceTree = "<group>"; };
+		EA57A4551A7EF81000023F9E /* TTCustomEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTCustomEntryViewController.h; path = ../TTCustomEntryViewController.h; sourceTree = "<group>"; };
+		EA57A4561A7EF81000023F9E /* TTCustomEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTCustomEntryViewController.m; path = ../TTCustomEntryViewController.m; sourceTree = "<group>"; };
+		EA57A4571A7EF81000023F9E /* TTCustomEntryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TTCustomEntryViewController.xib; path = ../TTCustomEntryViewController.xib; sourceTree = "<group>"; };
+		EA57A4581A7EF81000023F9E /* TTDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTDetailViewController.h; path = ../TTDetailViewController.h; sourceTree = "<group>"; };
+		EA57A4591A7EF81000023F9E /* TTDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTDetailViewController.m; path = ../TTDetailViewController.m; sourceTree = "<group>"; };
+		EA57A45A1A7EF81000023F9E /* TTDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TTDetailViewController.xib; path = ../TTDetailViewController.xib; sourceTree = "<group>"; };
+		EA57A45B1A7EF81000023F9E /* TTDetailViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTDetailViewDataSource.h; path = ../TTDetailViewDataSource.h; sourceTree = "<group>"; };
+		EA57A45C1A7EF81000023F9E /* TTDetailViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTDetailViewDataSource.m; path = ../TTDetailViewDataSource.m; sourceTree = "<group>"; };
+		EA57A45D1A7EF81000023F9E /* TTListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTListViewController.h; path = ../TTListViewController.h; sourceTree = "<group>"; };
+		EA57A45E1A7EF81000023F9E /* TTListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTListViewController.m; path = ../TTListViewController.m; sourceTree = "<group>"; };
+		EA57A45F1A7EF81000023F9E /* TTProjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTProjectController.h; path = ../TTProjectController.h; sourceTree = "<group>"; };
+		EA57A4601A7EF81000023F9E /* TTProjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTProjectController.m; path = ../TTProjectController.m; sourceTree = "<group>"; };
+		EA57A4611A7EF81000023F9E /* TTViewControllerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTViewControllerDataSource.h; path = ../TTViewControllerDataSource.h; sourceTree = "<group>"; };
+		EA57A4621A7EF81000023F9E /* TTViewControllerDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTViewControllerDataSource.m; path = ../TTViewControllerDataSource.m; sourceTree = "<group>"; };
+		EA57A46B1A7EF9EE00023F9E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EA57A46D1A7EFAB500023F9E /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		EA57A46E1A7EFAB500023F9E /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		EA57A4701A7F1FF400023F9E /* Time-Tracker-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Time-Tracker-Prefix.pch"; path = "time-tracker-withCoredataTests/Time-Tracker-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		EA57A4711A7F203F00023F9E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA57A46C1A7EF9EE00023F9E /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,7 @@
 		EA57A3FA1A7EEEC700023F9E = {
 			isa = PBXGroup;
 			children = (
+				EA57A46B1A7EF9EE00023F9E /* CoreData.framework */,
 				EA57A4051A7EEEC700023F9E /* time-tracker-withCoredata */,
 				EA57A41F1A7EEEC700023F9E /* time-tracker-withCoredataTests */,
 				EA57A4041A7EEEC700023F9E /* Products */,
@@ -81,10 +117,23 @@
 		EA57A4051A7EEEC700023F9E /* time-tracker-withCoredata */ = {
 			isa = PBXGroup;
 			children = (
+				EA57A4451A7EEEFB00023F9E /* Model */,
 				EA57A40A1A7EEEC700023F9E /* AppDelegate.h */,
 				EA57A40B1A7EEEC700023F9E /* AppDelegate.m */,
-				EA57A40D1A7EEEC700023F9E /* ViewController.h */,
-				EA57A40E1A7EEEC700023F9E /* ViewController.m */,
+				EA57A45F1A7EF81000023F9E /* TTProjectController.h */,
+				EA57A4601A7EF81000023F9E /* TTProjectController.m */,
+				EA57A4551A7EF81000023F9E /* TTCustomEntryViewController.h */,
+				EA57A4561A7EF81000023F9E /* TTCustomEntryViewController.m */,
+				EA57A4571A7EF81000023F9E /* TTCustomEntryViewController.xib */,
+				EA57A4581A7EF81000023F9E /* TTDetailViewController.h */,
+				EA57A4591A7EF81000023F9E /* TTDetailViewController.m */,
+				EA57A45A1A7EF81000023F9E /* TTDetailViewController.xib */,
+				EA57A45B1A7EF81000023F9E /* TTDetailViewDataSource.h */,
+				EA57A45C1A7EF81000023F9E /* TTDetailViewDataSource.m */,
+				EA57A45D1A7EF81000023F9E /* TTListViewController.h */,
+				EA57A45E1A7EF81000023F9E /* TTListViewController.m */,
+				EA57A4611A7EF81000023F9E /* TTViewControllerDataSource.h */,
+				EA57A4621A7EF81000023F9E /* TTViewControllerDataSource.m */,
 				EA57A4101A7EEEC700023F9E /* Main.storyboard */,
 				EA57A4131A7EEEC700023F9E /* Images.xcassets */,
 				EA57A4151A7EEEC700023F9E /* LaunchScreen.xib */,
@@ -98,6 +147,8 @@
 			children = (
 				EA57A4071A7EEEC700023F9E /* Info.plist */,
 				EA57A4081A7EEEC700023F9E /* main.m */,
+				EA57A4701A7F1FF400023F9E /* Time-Tracker-Prefix.pch */,
+				EA57A4711A7F203F00023F9E /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +168,20 @@
 				EA57A4211A7EEEC700023F9E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA57A4451A7EEEFB00023F9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA57A46D1A7EFAB500023F9E /* Stack.h */,
+				EA57A46E1A7EFAB500023F9E /* Stack.m */,
+				EA57A4461A7EEF6400023F9E /* Model.xcdatamodeld */,
+				EA57A4521A7EF53400023F9E /* Project.h */,
+				EA57A4531A7EF53400023F9E /* Project.m */,
+				EA57A44F1A7EF53300023F9E /* Entry.h */,
+				EA57A4501A7EF53400023F9E /* Entry.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +264,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA57A4641A7EF81000023F9E /* TTCustomEntryViewController.xib in Resources */,
 				EA57A4121A7EEEC700023F9E /* Main.storyboard in Resources */,
+				EA57A4661A7EF81000023F9E /* TTDetailViewController.xib in Resources */,
 				EA57A4171A7EEEC700023F9E /* LaunchScreen.xib in Resources */,
 				EA57A4141A7EEEC700023F9E /* Images.xcassets in Resources */,
 			);
@@ -219,9 +286,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA57A40F1A7EEEC700023F9E /* ViewController.m in Sources */,
+				EA57A46F1A7EFAB500023F9E /* Stack.m in Sources */,
+				EA57A46A1A7EF81000023F9E /* TTViewControllerDataSource.m in Sources */,
+				EA57A4631A7EF81000023F9E /* TTCustomEntryViewController.m in Sources */,
 				EA57A40C1A7EEEC700023F9E /* AppDelegate.m in Sources */,
 				EA57A4091A7EEEC700023F9E /* main.m in Sources */,
+				EA57A4691A7EF81000023F9E /* TTProjectController.m in Sources */,
+				EA57A4651A7EF81000023F9E /* TTDetailViewController.m in Sources */,
+				EA57A4671A7EF81000023F9E /* TTDetailViewDataSource.m in Sources */,
+				EA57A4541A7EF53400023F9E /* Project.m in Sources */,
+				EA57A4511A7EF53400023F9E /* Entry.m in Sources */,
+				EA57A4481A7EEF6400023F9E /* Model.xcdatamodeld in Sources */,
+				EA57A4681A7EF81000023F9E /* TTListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +488,7 @@
 				EA57A4281A7EEEC700023F9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA57A4291A7EEEC700023F9E /* Build configuration list for PBXNativeTarget "time-tracker-withCoredataTests" */ = {
 			isa = XCConfigurationList;
@@ -420,8 +497,23 @@
 				EA57A42B1A7EEEC700023F9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA57A4461A7EEF6400023F9E /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA57A4471A7EEF6400023F9E /* Model.xcdatamodel */,
+			);
+			currentVersion = EA57A4471A7EEF6400023F9E /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ../Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EA57A3FB1A7EEEC700023F9E /* Project object */;
 }

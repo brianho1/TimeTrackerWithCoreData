@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TTListViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    TTListViewController *vc = [TTListViewController new];
+    
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    self.window.rootViewController = navController;
+
+    
     return YES;
 }
 
